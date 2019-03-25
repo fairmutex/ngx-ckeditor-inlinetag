@@ -68,7 +68,7 @@ CKEDITOR.plugins.add( 'inlinetag', {
 				label: 'Insert '+tag,
 				command: 'inlinetag'+tavVar,
 				toolbar: 'insert',
-				// icon: 'inlinetag',
+				 icon: 'inlinetag',
 				class: 'inlinetag',
 			});
 	
