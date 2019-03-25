@@ -32,8 +32,6 @@ export class AppComponent  {
       on: {
 
         instanceReady: function (evt) {
-          console.log('on');
-
           var rule = {
             attributeNames: [
               [(/^data-cke-pa-on/), 'on'],
