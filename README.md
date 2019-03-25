@@ -5,4 +5,4 @@
 
 ckeditor 4 plugin for configurable inline tags.
 
-* Icon dont load on StackBlitz
+* Icons don't load on StackBlitz
