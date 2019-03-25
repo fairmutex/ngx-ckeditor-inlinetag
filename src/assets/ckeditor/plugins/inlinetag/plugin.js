@@ -16,19 +16,9 @@ CKEDITOR.plugins.add( 'inlinetag', {
 	// The plugin initialization logic goes inside this method.
 	init: function( editor ) {
 
-		 var  makeid  = function(length) {
-			var text = "";
-			var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-		  
-			for (var i = 0; i < length; i++)
-			  text += possible.charAt(Math.floor(Math.random() * possible.length));
-		  
-			return text;
-		  }
-
 		  
 		var getTag = function(text){
-			// const id = makeid(20); 
+
 				return `<span class="inlinetag" contentEditable='false'>
 			<span class="inlinetag-head"  contentEditable='false'>&nbsp;</span>
 			<span class="inlinetag-content"  contentEditable='false'>${text}</span>
